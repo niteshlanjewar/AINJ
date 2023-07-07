@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+display: flex;
+align-items: center;
+justify-content: center;
+position: sticky;
+top: 0;
+cursor: pointer;
+}
+
+.nav-list{
+width: 50%;
+display: flex;
+/* background-color: yellow; */
+align-items: center;
+justify-content: center;
+
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 26px 30px;
+}
+
+.nav-list a{
+    text-decoration: none;
+    color: aquamarine;
+}
+.nav-list a:hover{
+    text-decoration: none;
+    color: gray;
+}
+.rightNav{
+    width: 50%;
+    /* background-color: green; */
+    text-align: right;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 30%;
+    border: 3px solid;
+    border-radius: 50px;
+}
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+}
+.background{
+    background: rgba(0, 0, 0, 0.7) url(https://blog.planview.com/wp-content/uploads/2020/01/Top-6-Software-Development-Methodologies.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.box-main{
+    display: flex;
+    width: 60%;
+    /* background-color: blueviolet; */
+    justify-content: center;
+    align-items: center;
+    color: aquamarine;
+    /* max-width: 50%; */
+    margin: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* .btn1{
+    margin-right: 450px;
+    width: 80px;
+    border-radius: 40px;
+} */
+.firstSection{
+    height: 100vh;
+}
+
+.firstHalf{
+width: 50%;
+display: flex;
+/* background-color: aquamarine; */
+justify-content: left;
+flex-direction: column;
+}
+.secondHalf{
+    width: 30%;
+}
+.secondHalf img{
+    width: 500px;
+    margin-top: 20px;
+}
+
+.text-big{
+
+}
+
+.text-small{
+    
+}
