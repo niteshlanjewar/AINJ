@@ -38,7 +38,16 @@ justify-content: center;
     width: 50%;
     /* background-color: green; */
     text-align: right;
+    padding: 0 23px;
 }
+
+.btn-sm{
+padding: 6px 10px;
+vertical-align: middle;
+border-radius: 8px;
+cursor: pointer;
+}
+
 .logo{
     width: 20%;
     display: flex;
@@ -57,7 +66,7 @@ justify-content: center;
     border-radius: 9px;
 }
 .background{
-    background: rgba(0, 0, 0, 0.7) url(https://blog.planview.com/wp-content/uploads/2020/01/Top-6-Software-Development-Methodologies.jpg);
+    background: rgba(0, 0, 0, 0.7) url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAegAnmbkAtgE07YTnI9V0p2SsFQ3Q68tEYA&usqp=CAU);
     background-size: cover;
     background-blend-mode: darken;
 }
@@ -71,18 +80,26 @@ justify-content: center;
     /* max-width: 50%; */
     margin: auto;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 80%;
 }
-/* .btn1{
+.btn1{
     margin-right: 450px;
     width: 80px;
-    border-radius: 40px;
-} */
+    border-radius: 8px;
+    padding: 8px 20px;
+    margin: 7px 0;
+    border: 2px solid white;
+    cursor: pointer;
+    background: none;
+    color: aquamarine;
+    border-color: aquamarine;
+}
 .firstSection{
     height: 100vh;
 }
 
 .firstHalf{
-width: 50%;
+width: 70%;
 display: flex;
 /* background-color: aquamarine; */
 justify-content: left;
@@ -97,9 +114,67 @@ flex-direction: column;
 }
 
 .text-big{
-
+font-size: 40px;
 }
 
 .text-small{
-    
+    font-size: 20px;
+}
+
+.secondSection{
+    /* background-color: green; */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin: auto;
+}
+.paras{
+    /* margin-left: 260px;
+    margin-right: 252px; */
+    width: 550px;color:aquamarine;
+    /* background-color: aquamarine; */
+}
+.background1{
+    background: rgba(0, 0, 0, 0.7) url(https://readdive.com/wp-content/uploads/2022/06/software-development-lifecycle.png);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.thirdSection{
+    /* background-color: green; */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.background2{
+    background: rgba(0, 0, 0, 0.7) url(https://kruschecompany.com/wp-content/uploads/2021/04/Hero_1280x595-1-1280x595.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.fourthSection{
+    /* background-color: green; */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin: auto;
+}
+.background3{
+    background: rgba(0, 0, 0, 0.7) url(https://kruschecompany.com/wp-content/uploads/2021/04/Hero_1280x595-1-1280x595.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.form-input{
+width: 80%;
+font-size: 19px;
+border: 2px solid gray;
+border-radius: 6px;
+margin-top: 30px;
+padding: 5px 3px;
+}
+#text{
+    margin-top: 10px;
 }
