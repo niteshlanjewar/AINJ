@@ -64,7 +64,7 @@ cursor: pointer;
 }
 #search{
     padding: 5px;
-    font-size: 17px;
+    font-size: 14px;
     border: 2px solid grey;
     border-radius: 9px;
 }
@@ -191,6 +191,20 @@ padding: 5px 3px;
     color: aquamarine;
 }
 
+.burger{
+position: absolute;
+cursor: pointer;
+top: 15px;
+right:5%;
+display: none;
+}
+.line{
+    width: 30px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+}
+
 @media only screen and (max-width: 872px){
     .nav-list{
         flex-direction: column;
@@ -204,5 +218,14 @@ padding: 5px 3px;
     .rightNav{
         margin: auto;
         text-align: center;
+    }
+    .burger{
+        display: block;
+    }
+    .ht-nav-resp{
+        height: 72px;
+    }
+    .visibility-resp{
+        opacity: 0;
     }
 }
