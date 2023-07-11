@@ -10,6 +10,7 @@ justify-content: center;
 position: sticky;
 top: 0;
 cursor: pointer;
+
 }
 
 .nav-list{
@@ -80,10 +81,11 @@ cursor: pointer;
     justify-content: center;
     align-items: center;
     color: aquamarine;
-    /* max-width: 50%; */
+    max-width: 50%;
     margin: auto;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     height: 80%;
+   
 }
 .btn1{
     margin-right: 450px;
@@ -114,6 +116,7 @@ flex-direction: column;
 .secondHalf img{
     width: 420px;
     margin-top: 20px;
+
 }
 
 .text-big{
@@ -211,6 +214,8 @@ display: none;
     }
     .navbar{
         flex-direction: column;
+        transition: all 0.7s ease-out;
+        height: 450px;
     }
     #search{
         width: 100%;
@@ -228,4 +233,13 @@ display: none;
     .visibility-resp{
         opacity: 0;
     }
+    .box-main {
+        flex-direction: column-reverse;
+        max-width: 100%;
+}
+.secondHalf img{
+    overflow: auto;
+    justify-content: center;
+    align-items: center;
+}
 }
